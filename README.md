@@ -4,10 +4,10 @@
 This project implements a **Handwritten Digit Recognition System** using a **CNN** model trained on the **MNIST dataset**. The model can classify handwritten digits (0-9) from user input via a drawing canvas or an uploaded image.  
 
 ## **Features**  
-✅ **Draw a digit** on the web-based canvas for real-time recognition.  
-✅ **Upload an image** file containing a digit for prediction.  
-✅ Uses a **Convolutional Neural Network (CNN)** trained on the MNIST dataset.  
-✅ **Simple and interactive UI** powered by HTML, JavaScript, and Flask backend.  
+- **Draw a digit** on the web-based canvas for real-time recognition.  
+- **Upload an image** file containing a digit for prediction.  
+- Uses a **Convolutional Neural Network (CNN)** trained on the MNIST dataset.  
+- **Simple and interactive UI** powered by HTML, JavaScript, and Flask backend.  
 
 ## **Project Structure**  
 ```
@@ -24,19 +24,19 @@ This project implements a **Handwritten Digit Recognition System** using a **CNN
 
 ## **Installation & Setup**  
 
-### **1️⃣ Install Dependencies**  
+### **1 Install Dependencies**  
 Ensure you have Python installed. Then, install the required libraries:  
 ```bash
 pip install tensorflow flask numpy pillow
 ```
 
-### **2️⃣ Train the Model**  
+### **2 Train the Model**  
 If you want to train the model from scratch, run:  
 ```bash
 python model_training.py
 ```
 
-### **3️⃣ Run the Web App**  
+### **3 Run the Web App**  
 ```bash
 python app.py
 ```
